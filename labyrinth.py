@@ -92,10 +92,7 @@ class Labyrinthe:
             monMur = murs.depiler()
             self.fusionner(monMur[0], monMur[1], monMur[2])
         
-        
-        
-    def afficher(self):
-        return self.cells
+
             
 
 #taille du labyrinthe
