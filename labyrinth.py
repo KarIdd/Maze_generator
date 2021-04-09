@@ -98,7 +98,8 @@ class Labyrinthe:
         return self.cells
             
 
-
+#taille du labyrinthe
 laby=Labyrinthe(20,20)
+
 laby.generer()
 laby.print_plot()
